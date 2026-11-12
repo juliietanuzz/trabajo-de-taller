@@ -1,6 +1,3 @@
-* {
-
-}
 
 nav{
     background-color: #05253c;
@@ -34,13 +31,11 @@ nav{
 
 }
 h1{
+    margin: 0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 75px;
     color: #ffffff;
-    align-items: flex-start;  
-    flex-direction: row;
-    justify-content: left;
-}
+    }
 .eslo{
     font-size: 25px;
     color: #fdfdff;
@@ -265,6 +260,8 @@ img{
 
 /*titulo*/
 .res{
+    padding: 30px;
+    margin: 0px;
     background-color: #0E5A7E;
 }
 .tit{
@@ -371,11 +368,11 @@ label{
 .re{
     margin: 0%;
     padding-left: 30px;
-    font-size: 30px;
+    font-size: 70px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     padding-bottom: 30px;
 }
-.fot{
-
+.rea{
+    color: #ffffff;
 }
