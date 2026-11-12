@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.contenedor{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.fotoo{
+    flex: 25%;
+    padding: 5px;
+}
+.fotoo img{
+    margin-top: 5px;
+}
+@media (max-width: 800px){
+    .foto{
+        flex: 50%;
+    }
+}
+@media (max-width: 600px){
+    .foto{
+        flex: 100%;
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+            <div class="logo">Travel plus </div>
+        </a>
+        <div class="eso">
+            <a href="index.html">Inicio</a>
+            <a href="destinos.html">Destinos</a>
+            <a href="reservas.html">Reservas</a>
+            <a href="">Contacto</a>
+        </div>  
+    </nav>
+    <div class="res">
+    <p class="re">Reserva tu viaje</p>
+    <p class="re">Completá tus datos y te confirmamos el paquete. </p>
+    </div>
+    <div class="cont">
+    <div class="reserva">
+    <form action="" class="formulario">
+        <div class="campo">
+        <label for="nombre">Nombre:</label> <br>
+        <input type="text" id="nombre" name="nombre" required class="coso">
+        </div>
+        <div class="campo">
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido" required class="coso">
+        </div>
+        <div class="campo">
+        <label for="email">Correo electrónico:</label> <br>
+        <input type="email" id="email" name="email" required class="coso">
+        </div>
+        <div class="campo">
+        <label for="telefono">Teléfono:</label> <br>
+        <input type="tel" id="telefono" name="telefono" required class="coso">
+        </div>
+        <div class="campo">
+        <label for="destino">Destino:</label><br>
+        <select id="destino" name="destino" required class="select" class="cos">
+            <option value="" class="cos">Seleccione un destino</option>
+            <option value="disney" class="cos">Disney</option>
+            <option value="brasil" class="cos">Brasil</option>
+            <option value="miami" class="cos">Miami</option>
+        </select>
+        </div>
+        <label for="fecha_salida">Fecha de salida:</label>
+        <input type="date" id="fecha_salida" name="fecha_salida" required class="coso"><br><br>
+
+        <label for="fecha_regreso">Fecha de regreso:</label>
+        <input type="date" id="fecha_regreso" name="fecha_regreso" required class="coso"><br><br>
+
+        <button type="submit" class="boton5">Reservar</button>
+    </form>
+    </div>
+<div class="fts">
+    <div class="foto">
+    <img src="disney/18776a074cc3e5dcc71c0ab3027ec594.jpg" alt="Disney" class="ft">
+    <p class="rese">Disney</p>
+    </div>
+    <div class="foto">
+    <img src="brasil/103540-beach-Brazil-Rio_de_Janeiro-Copacabana.jpg" alt="rio" class="ft">
+    <p class="rese">Brasil</p>
+    </div>
+    <div class="foto">
+    <img src="miami/miami3.jpeg" alt="Miami" class="ft">
+    <p class="rese">Miami</p>
+    </div>
+</div>
+</div>
+</body>
+</html>
