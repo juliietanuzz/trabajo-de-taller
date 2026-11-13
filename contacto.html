@@ -1,51 +1,54 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-     <nav>
-        <a href="index.html"> <div class="logo"> Travel plus </div></a>
-         <div class="eso">
+    <nav>
+        <a href="index.html">
+            <div class="logo">Travel plus</div>
+        </a>
+        <div class="eso">
             <a href="index.html">Inicio</a>
             <a href="destinos.html">Destinos</a>
             <a href="reservas.html">Reservas</a>
-            <a href="">Contacto</a>
-        </div>  
+           <a href="contacto.html">Contacto</a>
+     </div>
     </nav>
-        <div class="principal">
-           <h1>Tienes alguna duda o reclamo</h1>
-           <p class="eslo">CONTACTANOS</p>
-        </div>
-<form action="" class="formulario">
-        <div class="campo">
-        <label for="nombre">Nombre:</label> <br>
-        <input type="text" id="nombre" name="nombre" required class="coso">
-        </div>
-        <div class="campo">
-        <label for="apellido">Apellido:</label><br>
-        <input type="text" id="apellido" name="apellido" required class="coso">
-        </div>
-        <div class="campo">
-        <label for="email">Correo electrónico:</label> <br>
-        <input type="email" id="email" name="email" required class="coso">
-        </div>
-        <div class="campo">
-        <label for="telefono">Teléfono:</label> <br>
-        <input type="tel" id="telefono" name="telefono" required class="coso">
-        </div>
-        <div class="campo">
-        <label for="destino">Destino:</label><br>
-        <select id="destino" name="destino" required class="select" class="cos">
-            <option value="" class="cos">Seleccione un destino</option>
-            <option value="disney" class="cos">Disney</option>
-            <option value="brasil" class="cos">Brasil</option>
-            <option value="miami" class="cos">Miami</option>
-        </select>
-        </div>
-    </form>
+     <div class="principal">
+       <h1>Tienes alguna duda o reclamo</h1>
+    <p class="eslo">CONTACTANOS</p>
+      </div>
+    <div class="cont">
+     <div class="reserva">
+    <form action="" method="post" class="formulario">
+      <div class="campo">
+       <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required class="coso">
+    </div>
+      <div class="campo">
+      <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required class="coso">
+      </div>
+    <div class="campo">
+       <label for="email">Correo electrónico:</label>
+     <input type="email" id="email" name="email" required class="coso">
+    </div>
+    <div class="campo">
+       <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required class="coso">
+      </div>
+    <div class="campo">
+      <label for="comentario">Comentario:</label>
+     <textarea id="comentario" name="comentario" class="mensaje" required></textarea>
+      </div>
+     <button type="submit" class="boton5">Enviar</button>
+      </form>
+    </div>
+    </div>
 </body>
 </html>

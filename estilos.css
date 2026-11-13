@@ -376,3 +376,11 @@ label{
 .rea{
     color: #ffffff;
 }
+
+.mensaje{
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: 300px;
+    height: 100px;
+}
