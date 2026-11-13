@@ -146,6 +146,7 @@ img{
     padding: 2px;
 }
 .dis{
+    padding-bottom: 10px;
     display: flex; 
   
 }
@@ -278,6 +279,8 @@ img{
     font-size: 25px;
     font-size: 40px;
     padding-bottom: 12px;
+    margin: 0;
+    padding: 10px;
 }
 .formulario{
     display: flex;
@@ -336,6 +339,7 @@ label{
     width: 350px;
     height: auto;
     border-radius: 10px;
+    
 }
 .coso{
     padding: 10px;
@@ -375,4 +379,11 @@ label{
 }
 .rea{
     color: #ffffff;
+}
+footer{
+    background-color: #05253c;
+    padding: 25px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
