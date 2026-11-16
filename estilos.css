@@ -28,7 +28,7 @@ nav{
 .principal{
     background-color: #0E5A7E ;
     padding: 50px;
-
+    color: white;
 }
 h1{
     margin: 0;
@@ -180,7 +180,7 @@ img{
     padding: 50px;
 }
 .final{
-    background-color: #001347;
+    background-color: #0E5A7E;
     padding: 50px;
 }
 .fin{
@@ -190,9 +190,9 @@ img{
     text-align: center;
 }
 .boton2{
-    background-color: #0000e6;
+    background-color: #0E5A7E;
     color: #fffffc;
-    border: 2px solid #0a0045;
+    border: 2px solid #05253c;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -209,24 +209,7 @@ img{
     background-size: cover;
     padding: 50px;
 }
-.final2{
-    background-color: #f89500;
-    padding: 50px;
-}
-.boton3{
-    background-color: #ffb84d;
-    color: #fffffc;
-    border: 2px solid #e68a00;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    margin: 0 auto; 
-}
+
 .principal4{
     background-image: url('miami/miami5.jpg');
     height: 400px;
@@ -235,31 +218,9 @@ img{
     padding: 50px;
 }
 .final3{
-    background-color: #f3c3ff;
+    background-color: #0E5A7E;
     padding: 50px;
 }
-.fin3{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-    color: #ffffff;
-    text-align: center;
-}
-.boton4{
-    background-color: #ffb3ff;
-    color: #fffffc;
-    border: 2px solid #fc51fc;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    margin: 0 auto; 
-}
-
-/*titulo*/
 .res{
     padding: 30px;
     margin: 0px;
@@ -393,4 +354,11 @@ footer{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
+}
+.h11{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: bold;
 }

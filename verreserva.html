@@ -1,0 +1,61 @@
+<?php
+$conn= mysqli_connect("localhost", "root", "", "alumnos_db");
+$resultado = mysqli_query($conn, "SELECT * FROM alumnos");
+?> 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de alumnos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+            <div class="logo">Travel plus </div>
+        </a>
+        <div class="eso">
+            <a href="index.html">Inicio</a>
+            <a href="destinos.html">Destinos</a>
+            <a href="reservas.html">Reserva</a>
+            <a href="contacto.html">Contacto</a>
+        </div>  
+    </nav>
+    <div class="principal">
+    <h1 class="h11">Reservas</h1>
+    </div>
+    <table class="table table-striped mx-3 p-2" style="width: 1000px;">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Curso</th>
+                <th scope="col">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php while ($fila = mysqli_fetch_assoc($resultado)) { ?>
+            <tr>
+                <td><?= $fila['id']?></td>
+                <td><?= $fila['nombre']?></td>
+                <td><?= $fila['edad']?></td>
+                <td><?= $fila['curso']?></td>
+                <td>
+                    <a href="editar.php?id=<?= $fila['id'] ?>">editar</a>
+                    <a href="eliminar.php?id=<?= $fila['id'] ?>" onclick="return confirm('estas seguro?')">Eliminar</a>
+                </td>
+            </tr>
+            <?php } ?>
+        </tbody>
+    </table>
+    <a class="btn btn-outline-dark mx-3" href="agregar.php" role="button">Agregar alumno</a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+    <footer>
+        <a href="">Nuestras politicas</a>
+    </footer>
+</body>
+</html>
