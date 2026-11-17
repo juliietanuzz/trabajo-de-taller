@@ -6,10 +6,25 @@
     <title>Insert form</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
     rel="stylesheet" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <h1 class="m-3">Agregar reserva</h1>
+    <nav>
+        <a href="index.html">
+            <div class="logo">Travel plus </div>
+        </a>
+        <div class="eso">
+            <a href="index.html">Inicio</a>
+            <a href="destinos.html">Destinos</a>
+            <a href="reservas.html">Reserva</a>
+            <a href="contacto.html">Contacto</a>
+        </div>  
+    </nav>
+    <div class="principal">
+
+    <h1 class="h11">Agregar reserva</h1>
+
+</div>
     <form action="insertar.php" method="POST" class="mx-3 p-2" style="width: 1000px;">
         <div class="mb-3">
             <label for="nombre" class="form-label">Nombre</label>
@@ -44,5 +59,8 @@
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     crossorigin="anonymous"></script>
+        <footer>
+        <a href="">Nuestras politicas</a>
+    </footer>
 </body>
 </html>

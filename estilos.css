@@ -349,6 +349,7 @@ label{
     height: 100px;
 }
 footer{
+    margin-top: auto;
     background-color: #05253c;
     padding: 20px;
     text-align: center;
